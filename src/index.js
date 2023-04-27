@@ -1,4 +1,6 @@
 const venom = require('venom-bot');
+const opn = require('opn');
+opn('https://www.google.com', {app: ['chrome', '--incognito']});
 
 venom
   .create()
