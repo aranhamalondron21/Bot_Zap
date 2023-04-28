@@ -1,8 +1,5 @@
 const venom = require('venom-bot');
 const qrcode = require('qrcode-terminal');
-const opn = require('opn');
-
-opn('https://www.google.com', {app: ['chrome', '--incognito']});
 
 function sendWelcomeMessage(client, from) {
   const message = `Olá! Eu sou o bot de figurinhas. Para criar uma figurinha, basta me enviar uma imagem. Experimente agora mesmo!`;
